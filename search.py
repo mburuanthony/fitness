@@ -7,7 +7,7 @@ def searchwindow():
     sg.theme("DarkTeal2")
 
     heading = [
-        [sg.Text("City Gym Search Members",
+        [sg.Text("Search Members",
                  font="14", justification='c', expand_x=True)],
     ]
 
@@ -36,7 +36,7 @@ def searchwindow():
               [sg.Stretch(), sg.Button('Search'),
                sg.Button('Delete'), sg.Button('Help'), sg.Button('Home')]]
 
-    window = sg.Window("City Gym Search", layout)
+    window = sg.Window("Search", layout)
 
     while True:
         event, values = window.read()

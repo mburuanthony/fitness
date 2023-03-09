@@ -7,7 +7,7 @@ def registerwindow():
 
     # Heading
     heading = [
-        [sg.Text("City Gym Membership Registration",
+        [sg.Text("Membership Registration",
                  font="14", justification='c', expand_x=True)],
     ]
 

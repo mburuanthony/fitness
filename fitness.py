@@ -7,7 +7,7 @@ def fitnesswindow():
     sg.theme("DarkTeal2")
 
     heading = [
-        [sg.Text("City Gym Fitness",
+        [sg.Text("Fitness",
                  font="14", justification='c', expand_x=True)]
     ]
 
@@ -36,7 +36,7 @@ def fitnesswindow():
          sg.Button('Help'), sg.Button('Home')]
     ]
 
-    window = sg.Window("City Gym Fitness Enrollment", layout, size=(600, 360))
+    window = sg.Window("Fitness Enrollment", layout, size=(600, 360))
 
     while True:
         event, values = window.read()

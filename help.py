@@ -5,7 +5,7 @@ def helpwindow():
     sg.theme("DarkTeal2")
 
     heading = [
-        [sg.Text("City Gym Help",
+        [sg.Text("Help",
                  font="14", justification='c', expand_x=True)],
     ]
 
@@ -49,7 +49,7 @@ def helpwindow():
               [sg.Stretch(), sg.Button('Home')]
               ]
 
-    window = sg.Window("City Gym Help", layout, size=(800, 640))
+    window = sg.Window("Help", layout, size=(800, 640))
 
     while True:
         event, values = window.read()
